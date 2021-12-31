@@ -1,0 +1,48 @@
+.navbar {
+    transition: 0.5s cubic-bezier(0.38, -0.68, 0.76, 1.95);
+}
+
+.sidebar {
+    background-color: rgb(32, 203, 255);
+    position: fixed;
+    overflow: auto;
+    height: 100vh;
+    transition: .5s cubic-bezier(0.38, -0.68, 0.76, 1.95);
+    width: 20%;
+}
+
+.content {
+    position: fixed;
+    right: 0;
+    transition: .5s cubic-bezier(0.38, -0.68, 0.76, 1.95);
+    overflow: auto;
+    width: 80%;
+    height: 100vh;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ 
+.menu ul li a {
+    padding: 10px;
+    display: block;
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li ul {
+    padding-left: 10px;
+}
+
+.menu ul li a:hover {
+    background-color: blue;
+}
